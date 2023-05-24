@@ -1,12 +1,10 @@
 .c-container {
+  display: flex;
   justify-content: space-between;
 }
 
-.c-container {
-  flex: 1;
-}
-
 .c-right {
+  flex: 1;
   width: 100%;
 }
 
