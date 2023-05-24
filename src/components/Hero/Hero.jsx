@@ -25,11 +25,7 @@ const Hero = () => {
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText hero-desc">
-<<<<<<< HEAD
-            <span>Find a varieties of property that suits you easily</span>
-=======
             <span>Find a varieties of property that suits your needs</span>
->>>>>>> value-section
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
           <div className="flexCenter search-bar">
