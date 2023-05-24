@@ -4,6 +4,10 @@ import Hero from "./components/Hero/Hero";
 import Residencies from "./components/residencies/Residencies";
 import Companies from "./components/Companies/Companies";
 import Value from "./components/Value/Value";
+import Contact from "./components/Contact/Contact";
+import GetStarted from "./components/GetStarted/GetStarted";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 const App = () => {
   return (
     <div className="App">
@@ -15,6 +19,9 @@ const App = () => {
       <Companies />
       <Residencies />
       <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
     </div>
   );
 };
