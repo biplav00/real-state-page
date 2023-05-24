@@ -25,7 +25,11 @@ const Hero = () => {
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText hero-desc">
+<<<<<<< HEAD
             <span>Find a varieties of property that suits you easily</span>
+=======
+            <span>Find a varieties of property that suits your needs</span>
+>>>>>>> value-section
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
           <div className="flexCenter search-bar">
@@ -60,9 +64,17 @@ const Hero = () => {
         </div>
         {/* right side */}
         <div className="flexCenter hero-right">
-          <div className="image-container">
+          <motion.div
+            initial={{ x: "7rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{
+              duration: 2,
+              type: "spring",
+            }}
+            className="image-container"
+          >
             <img src="./hero-image.png" alt="" />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
